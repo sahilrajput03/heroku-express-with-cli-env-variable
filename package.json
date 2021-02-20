@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env-shell serve -l $PORT static/index.js",
+    "start": "cross-env-shell \"serve -l $PORT static/index.js\"",
     "s1": "cross-env-shell echo $PORT"
   },
   "keywords": [],
