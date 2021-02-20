@@ -1,0 +1,17 @@
+{
+  "name": "heroku-express-with-cli-env-variable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env-shell serve -l $PORT static/index.js",
+    "s1": "cross-env-shell echo $PORT"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "serve": "^11.3.2"
+  }
+}
